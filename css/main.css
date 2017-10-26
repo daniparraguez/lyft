@@ -1,3 +1,77 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+    
+}
+ header{ 
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 110px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 40px 40px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+
+ }
+.fixed{
+    position: fixed;
+ }
+.fixed a:last-child {
+	height:50px;
+    width:200px;
+    border-radius: 5px;
+	border: 2px solid white;
+	margin:0;
+	padding: 7px;
+}
+.fixed a:last-child:hover {
+    box-shadow: 3px 3px 2px grey;
+}
+.fixed a{
+ 	text-decoration: none;
+ 	position: relative;
+ 	bottom:20px;
+ 	left: 800px;
+ 	color:white;
+ 	margin:10px;
+ }
+.Lyft{
+   width: 100%;
+   height: 100%
+ }
+.logo-lyft-blanco{
+ 	height: 50px;
+ 	width: 70px;
+ 	padding: 0px, 30px;
+ }
+
+.cuadro-blanco{
+ 	width: 560px;
+ 	height: 430px;
+ 	background-color: white;
+ 	position: absolute;
+ 	left: 800px;
+ 	top:180px;
+ 	padding: 30px 70px;
+ }
+ .cuadro-blanco h1{
+    font-size: 40px;
+    color:#352384;
+ }
+
