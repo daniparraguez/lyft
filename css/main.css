@@ -173,23 +173,60 @@ section .texto1, .texto2, .texto3  {
 footer{
 	
 	background: #333447;
-	
+
 }
 footer .final {
 	
 	margin:0px 90px;
-	text-align: center;
-	padding-top: 40px;
+	padding: 40px 40px;
+	display: block;
 	columns: 4;
 }
 
 footer .imagenes img{
+
 	height:55px; 
 	width:160px;
 }
+footer .primer h1, .segundo h1, .tercero h1{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color:white;
+	font-size: 20px;
+	margin:0;
+}
+
+footer .primer a, .segundo a, .tercero a{
+    font-weight: normal;
+    text-decoration: none;
+    color:white;
+ 
+}
+
+footer .primer a:hover, .segundo a:hover, .tercero a:hover{
+    color:#FF00BF;
+ 
+}
+.iconos{
+		text-align: center;
+		color: white;
+}
+span{
+	margin: 20px 50px;
+}
+
 .line{
-	border-top: 5px solid #FFF;
-	width: 10%;
-	display:inline-block;
-	position: relative;
-	bottom:10px;
+	border-top: 1px solid #FFF;
+	width: 700px;
+	margin-top: 10px;
+}
+h3{
+	text-align: center;
+	color:white;
+	margin:0;
+	padding-bottom: 20px; 
+	font-weight: lighter;
+}
+
+
+
