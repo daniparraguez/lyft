@@ -51,9 +51,12 @@ body {
  	color:white;
  	margin:10px;
  }
-.Lyft{
+ .first-section{
+ 	height: 759px;
+ }
+iframe{
    width: 100%;
-   height: 100%
+   height: 100%;
  }
 .logo-lyft-blanco{
  	height: 50px;
@@ -66,12 +69,127 @@ body {
  	height: 430px;
  	background-color: white;
  	position: absolute;
- 	left: 800px;
+ 	left: 789px;
  	top:180px;
- 	padding: 30px 70px;
+ 	padding: 30px 60px;
+ 	line-height: 45px;
+
  }
  .cuadro-blanco h1{
     font-size: 40px;
     color:#352384;
+    margin:0px 90px 0px 0px;
+    font-weight: 500;
+ }
+  .cuadro-blanco h3{
+    font-size: 20px;
+    color:#352384;
  }
 
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid grey;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.button button{
+
+    background-color: #FF00BF; 
+    border: none;
+    color: white;
+    margin: 20px 20px 0px 0px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    height:50px;
+    width:180px;
+    border-radius: 5px;
+}
+form .button a{
+	color:grey; 
+	opacity: 0.8;
+}
+form div p{
+	font-size: 10px;
+	margin:0;
+	padding top:0;
+	line-height: 20px;
+	color:grey;
+}
+form div p:first-child{
+	margin-top: 20px;
+}
+form div p a{
+	color:#FF00BF;
+}
+.second-section{
+	background:linear-gradient( #660E83, #2B1E66);
+	display: inline-block;
+	height:500px;
+	width:100%;
+	margin:0px;
+	padding: 20px 800px 0px 130px;
+	color:white;
+}
+.first-paragraph,.second-paragraph,.third-paragraph{
+	padding-bottom: 20px;
+	font-weight: lighter;
+}
+.third-paragraph h1{
+	line-height: 5px;
+}
+.second-section .phone{
+	height: 450px;
+	width: 450px;
+	position: relative;
+	left:600px;
+	bottom: 420px;
+	display: flex;
+}
+
+.third-section, .fourth-section, .fifth-section {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	margin: 0;
+}
+section .texto1, .texto2, .texto3  {
+	padding: 30px;
+	line-height: 20px;
+
+}
+.texto1 h1, .texto2 h1, .texto3 h1  {
+	font-size: 28px;
+	margin :0px 0px 20px 0px;
+
+}
+.texto1 p, .texto2 p, .texto3 p  {
+	font-size: 14px;
+	margin: 0;
+}
+footer{
+	
+	background: #333447;
+	
+}
+footer .final {
+	
+	margin:0px 90px;
+	text-align: center;
+	padding-top: 40px;
+	columns: 4;
+}
+
+footer .imagenes img{
+	height:55px; 
+	width:160px;
+}
+.line{
+	border-top: 5px solid #FFF;
+	width: 10%;
+	display:inline-block;
+	position: relative;
+	bottom:10px;
