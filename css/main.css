@@ -1,4 +1,4 @@
-/*
+oo/*
  * Estilos de tu proyecto
  */
  * {
@@ -78,12 +78,13 @@ iframe{
  .cuadro-blanco h1{
     font-size: 40px;
     color:#352384;
-    margin:0px 90px 0px 0px;
+    margin:0px 190px 0px 0px;
     font-weight: 500;
  }
-  .cuadro-blanco h3{
+  .cuadro-blanco h2{
     font-size: 20px;
     color:#352384;
+    font-weight: lighter;
  }
 
 input[type=text] {
